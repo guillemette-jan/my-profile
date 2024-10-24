@@ -1,0 +1,126 @@
+body {
+	background-color: rgb(238, 202, 213);
+	color: rgb(209, 233, 246); 
+	font-family: Helvetica;
+}
+	
+h1 {
+	color: rgb(64, 93, 114);
+	letter-spacing: 10px;
+	font-size: 35px;
+    font-family: "Times New Roman", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+	max-width: 30%;
+	height: auto;
+}
+
+
+h2 {
+    font-weight: 400;
+    font-style: normal;
+	color: rgb(243, 208, 215);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(117, 134, 148);
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+#balet {
+	width: 80px;
+}
+
+div {
+	background: ghostwhite;
+	box-shadow: 0px 10px 30px ;
+	margin: 50px;
+	padding: 60px;
+	border-radius: 70px;
+}
+.container {
+	text-align: center;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 900px) {
+	.h1{
+		font-size: 2.2em;
+	}
+	div {
+		padding: 30px;
+	}
+}
+
+@media (max-width: 720px) {
+ 	.h1	 {
+ 		font-size: 2em;
+ 	}	
+ 	.container {
+ 		width: 90%;
+ 	}
+}
+
+@media (max-width: 540px) {
+	h1 {
+		font-size: 1.8em;
+	}
+	div {
+		padding: 20px;
+	}
+	.list-inline i {
+		font-size: 25vw;
+	}
+ }
+
+ .rond-white {
+ 	background-color: ghostwhite;
+ 	padding: 100px;
+ 	border-radius: 70px;
+ }
+
+.bton-pink {
+	border-radius: 10px;
+	color: rgb(117, 134, 148);
+	background-color: rgb(209, 233, 246);
+	padding: 10px 15px;
+}
+
+.list-inline {
+  list-style: non;
+  padding-left: 0px; 
+}
+
+.list-inline i {
+ 	font-size: 50px;
+ 	color: rgb(243, 208, 215);
+ }
+
+.list-inline li {
+ 	display: inline;
+ 	padding: 10px;
+ } 
+.list-inline > li {
+  display: inline; 
+  padding: 0px 20px;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
+
